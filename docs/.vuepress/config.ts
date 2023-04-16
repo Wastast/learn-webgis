@@ -18,7 +18,7 @@ import path from 'path';
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  base: '/learning-synthesis/',
+  base: '/learn-webgis/',
   title: '归乡博客',
   description: '个人学习记录,CSS,HTML,JS,WegGL,随笔,GIS',
   head: [

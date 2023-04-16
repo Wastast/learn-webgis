@@ -17,12 +17,12 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+git push -f git@github.com:Wastast/learn-webgis.git
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:<BranchName>
-git push -f git@github.com:Wastast/learn-webgis.git master:gh-pages
+# git push -f git@github.com:Wastast/learn-webgis.git master:gh-pages
 
 cd -
 
-# 发布到github page： 项目根目录 Git Bash Here -> yarn run deploy-gh
+# 发布到 github page： 项目根目录 Git Bash Here -> yarn run deploy-gh
