@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-2bc2d2ee","path":"/cesium/primitive/","title":"Primitive","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"cesium/primitive/index.md"}');export{e as data};

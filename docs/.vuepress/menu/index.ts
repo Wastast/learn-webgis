@@ -7,3 +7,4 @@ export { default as CesiumSideBar } from './cesium';
 // export { default as ThreeSideBar } from './three';
 export { default as QgisSideBar } from './qgis';
 export { default as ArcgisSideBar } from './arcgis';
+export { default as BrowserSidebar } from './browser';

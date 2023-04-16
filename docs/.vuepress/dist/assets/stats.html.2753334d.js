@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-d40f9c1e","path":"/three/start/stats.html","title":"用 stats 查看渲染帧率","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"three/start/stats.md"}');export{t as data};

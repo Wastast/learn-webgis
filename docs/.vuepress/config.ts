@@ -11,10 +11,10 @@ import {
   PotreeSideBar,
   CesiumSideBar,
   QgisSideBar,
-  ArcgisSideBar
+  ArcgisSideBar,
+  BrowserSidebar
   // ThreeSideBar
 } from './menu';
-import path from 'path';
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -79,7 +79,8 @@ export default defineUserConfig({
       '/potree/': PotreeSideBar,
       '/cesium/': CesiumSideBar,
       '/qgis/': QgisSideBar,
-      '/arcgis/': ArcgisSideBar
+      '/arcgis/': ArcgisSideBar,
+      '/browser/': BrowserSidebar
       // '/three/': ThreeSideBar
     }
   })

@@ -8,7 +8,7 @@ export default [
     children: [
       {
         text: '浏览器',
-        link: '/css/'
+        link: '/browser/'
       },
       {
         text: '三剑客',

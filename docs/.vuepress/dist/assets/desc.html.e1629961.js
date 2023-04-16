@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-2070e3b1","path":"/three/start/desc.html","title":"THREE.JS","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1681650443000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"three/start/desc.md"}');export{t as data};

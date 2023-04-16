@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-d40f9c1e","path":"/three/start/stats.html","title":"用 stats 查看渲染帧率","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1681650443000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"three/start/stats.md"}');export{t as data};
