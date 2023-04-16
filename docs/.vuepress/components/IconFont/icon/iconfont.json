@@ -1,0 +1,114 @@
+{
+  "id": "3775520",
+  "name": "个人博客",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "970780",
+      "name": "太阳",
+      "font_class": "sun",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "12676628",
+      "name": "月亮_line",
+      "font_class": "moon",
+      "unicode": "e745",
+      "unicode_decimal": 59205
+    },
+    {
+      "icon_id": "32793515",
+      "name": "arrow-down",
+      "font_class": "arrow-down",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "32793518",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "32793519",
+      "name": "arrow-up",
+      "font_class": "arrow-up",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "32793520",
+      "name": "attach",
+      "font_class": "attach",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "32793521",
+      "name": "arrow-left",
+      "font_class": "arrow-left",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "32793568",
+      "name": "code",
+      "font_class": "code",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "32793571",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "32793664",
+      "name": "notification",
+      "font_class": "notification",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "32793678",
+      "name": "rollback",
+      "font_class": "rollback",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "32793682",
+      "name": "refresh",
+      "font_class": "refresh",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "32793688",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "32793706",
+      "name": "thumb-down",
+      "font_class": "thumb-down",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "32793708",
+      "name": "thumb-up",
+      "font_class": "thumb-up",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    }
+  ]
+}

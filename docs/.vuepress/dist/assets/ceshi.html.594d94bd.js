@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9323d598","path":"/js/ceshi.html","title":"这是测试","lang":"zh-CN","frontmatter":{"lastUpdated":false,"contributors":false},"excerpt":"","headers":[],"git":{},"filePathRelative":"js/ceshi.md"}');export{t as data};

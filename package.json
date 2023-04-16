@@ -1,0 +1,46 @@
+{
+  "name": "learning-synthesis",
+  "version": "0.0.0",
+  "description": "综合学习文档",
+  "main": "index.js",
+  "author": "Gui Xiang <276935962@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.2.6",
+    "commitlint": "^17.3.0",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "vuepress": "^2.0.0-beta.53"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "prepare": "husky install",
+    "commit": "git add . && git-cz"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "@vuepress/plugin-search": "^2.0.0-beta.53",
+    "@vueuse/core": "^9.5.0",
+    "ant-design-vue": "^3.2.15",
+    "dat.gui": "^0.7.9",
+    "eslint": "^8.30.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "lodash": "^4.17.21",
+    "three": "^0.150.0",
+    "vue-types": "^4.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz.config.js"
+    }
+  }
+}

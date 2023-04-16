@@ -1,0 +1,63 @@
+:root {
+  scroll-behavior: smooth;
+
+  // 文档进度条默认样式
+  --nprogress-color: #29d;
+  --nprogress-z-index: 1031;
+
+  // 搜索框样式
+  --search-bg-color: #ffffff;
+  --search-accent-color: #3eaf7c;
+  --search-text-color: #2c3e50;
+  --search-border-color: #eaecef;
+
+  --search-item-text-color: #5d81a5;
+  --search-item-focus-bg-color: #f3f4f5;
+
+  --search-input-width: 8rem;
+  --search-result-width: 20rem;
+}
+
+html.dark {
+  --backToTopBgColor: rgba(30, 30, 34, 0.8);
+}
+
+.theme-default-content h3,
+.theme-default-content h2 {
+  margin-bottom: 0.5em;
+}
+
+.theme-default-content h4 {
+  margin-bottom: 0.2em;
+}
+
+.medium-zoom-overlay {
+  --medium-zoom-bg-color: rgba(90, 90, 90, 0.8);
+}
+
+.page .theme-default-content {
+  padding: 0 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: rgba(150, 150, 150, 1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(150, 150, 150, 1);
+}
+
+.theme-default-content img {
+  margin-bottom: 1em;
+}

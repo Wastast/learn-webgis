@@ -1,0 +1,45 @@
+.nav-bar {
+  --navbar-line-height: calc(
+    var(--navbar-height) - 2 * var(--navbar-padding-v)
+  );
+  padding: var(--navbar-padding-v) var(--navbar-padding-h);
+  line-height: var(--navbar-line-height);
+
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--navbar-height);
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--c-border);
+  background-color: var(--c-bg-navbar);
+  transition: background-color var(--t-color), border-color var(--t-color);
+  .logo {
+    height: var(--navbar-line-height);
+    margin-right: var(--navbar-padding-v);
+    vertical-align: top;
+  }
+  .site-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--c-text);
+    position: relative;
+  }
+
+  .navbar-items-wrapper {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    top: var(--navbar-padding-v);
+    right: var(--navbar-padding-h);
+    height: var(--navbar-line-height);
+    padding-left: var(--navbar-padding-h);
+    white-space: nowrap;
+    font-size: 0.9rem;
+  }
+
+  .navbar-items {
+    display: inline-block;
+  }
+}

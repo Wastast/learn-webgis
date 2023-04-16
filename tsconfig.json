@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {},
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "target": "esnext",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "importsNotUsedAsValues": "preserve"
+  },
+  "include": [
+    "docs/.vuepress/demoPage/**/*.ts",
+    "docs/.vuepress/demoPage/**/*.tsx",
+    "docs/.vuepress/theme/**/*.ts",
+    "docs/.vuepress/theme/**/*.tsx",
+    "docs/.vuepress/components/**/*.ts",
+    "docs/.vuepress/components/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
