@@ -6,5 +6,9 @@ export default [
   {
     text: '清除缓存的几种方法',
     link: '/browser/cache.md'
+  },
+  {
+    text: 'URL字符转义',
+    link: '/browser/conversion.md'
   }
 ];
