@@ -12,8 +12,8 @@ import {
   CesiumSideBar,
   QgisSideBar,
   ArcgisSideBar,
-  BrowserSidebar
-  // ThreeSideBar
+  BrowserSidebar,
+  WebglSidebar
 } from './menu';
 
 export default defineUserConfig({
@@ -80,7 +80,8 @@ export default defineUserConfig({
       '/cesium/': CesiumSideBar,
       '/qgis/': QgisSideBar,
       '/arcgis/': ArcgisSideBar,
-      '/browser/': BrowserSidebar
+      '/browser/': BrowserSidebar,
+      '/webgl/': WebglSidebar
       // '/three/': ThreeSideBar
     }
   })

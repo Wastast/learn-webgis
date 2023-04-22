@@ -4,6 +4,14 @@ export default [
     link: '/'
   },
   {
+    text: 'WebGL',
+    link: '/webgl/'
+  },
+  {
+    text: 'CesiumJS',
+    link: '/cesium/setup/desc.md'
+  },
+  {
     text: '前端',
     children: [
       {
@@ -61,10 +69,6 @@ export default [
       {
         text: '地图引擎',
         children: [
-          {
-            text: 'CesiumJS',
-            link: '/cesium/setup/desc.md'
-          },
           // {
           //   text: 'ThreeJS',
           //   link: '/three/start/desc.md'

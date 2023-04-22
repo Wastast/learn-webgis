@@ -8,3 +8,4 @@ export { default as CesiumSideBar } from './cesium';
 export { default as QgisSideBar } from './qgis';
 export { default as ArcgisSideBar } from './arcgis';
 export { default as BrowserSidebar } from './browser';
+export { default as WebglSidebar } from './webgl';
