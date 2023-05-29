@@ -7,13 +7,13 @@ import {
   Navbar,
   CssSideBar,
   TollSideBar,
-  WebGisSideBar,
   PotreeSideBar,
   CesiumSideBar,
   QgisSideBar,
   ArcgisSideBar,
   BrowserSidebar,
-  WebglSidebar
+  WebglSidebar,
+  GisSidebar
 } from './menu';
 
 export default defineUserConfig({
@@ -75,14 +75,13 @@ export default defineUserConfig({
     sidebar: {
       '/css/': CssSideBar,
       '/tools/': TollSideBar,
-      '/webgis/': WebGisSideBar,
       '/potree/': PotreeSideBar,
       '/cesium/': CesiumSideBar,
       '/qgis/': QgisSideBar,
       '/arcgis/': ArcgisSideBar,
       '/browser/': BrowserSidebar,
-      '/webgl/': WebglSidebar
-      // '/three/': ThreeSideBar
+      '/webgl/': WebglSidebar,
+      '/gis/': GisSidebar
     }
   })
 });

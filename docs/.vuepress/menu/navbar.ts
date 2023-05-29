@@ -4,6 +4,10 @@ export default [
     link: '/'
   },
   {
+    text: 'GIS',
+    link: '/gis/'
+  },
+  {
     text: 'WebGL',
     link: '/webgl/'
   },
@@ -69,10 +73,6 @@ export default [
       {
         text: '地图引擎',
         children: [
-          // {
-          //   text: 'ThreeJS',
-          //   link: '/three/start/desc.md'
-          // },
           {
             text: 'Potree',
             link: '/potree/'
