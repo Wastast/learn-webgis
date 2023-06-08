@@ -1,0 +1,4 @@
+const l = JSON.parse(
+  '{"key":"v-7407d6da","path":"/gis/ogc/kmlorkmz.html","title":"KML 文件解析","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"KML 概述","slug":"kml-概述","link":"#kml-概述","children":[]},{"level":2,"title":"KML 代码解析","slug":"kml-代码解析","link":"#kml-代码解析","children":[]},{"level":2,"title":"KML 和 KMZ 文件","slug":"kml-和-kmz-文件","link":"#kml-和-kmz-文件","children":[]},{"level":2,"title":"js 在线解析 KML 和 KMZ 文件","slug":"js-在线解析-kml-和-kmz-文件","link":"#js-在线解析-kml-和-kmz-文件","children":[{"level":3,"title":"KML 文件","slug":"kml-文件","link":"#kml-文件","children":[]},{"level":3,"title":"KMZ 文件","slug":"kmz-文件","link":"#kmz-文件","children":[]}]}],"git":{"updatedTime":1685368456000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"gis/ogc/kmlorkmz.md"}'
+);
+export { l as data };

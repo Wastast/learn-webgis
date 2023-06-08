@@ -1,0 +1,4 @@
+const e = JSON.parse(
+  '{"key":"v-72181280","path":"/gis/ogc/3dtiles.html","title":"3dTiles 格式介绍","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"3D Tiles 总览","slug":"_3d-tiles-总览","link":"#_3d-tiles-总览","children":[]},{"level":2,"title":"tileset.json 文件结构","slug":"tileset-json-文件结构","link":"#tileset-json-文件结构","children":[{"level":3,"title":"boundingVolume","slug":"boundingvolume","link":"#boundingvolume","children":[]},{"level":3,"title":"geometricError","slug":"geometricerror","link":"#geometricerror","children":[]},{"level":3,"title":"refine","slug":"refine","link":"#refine","children":[]},{"level":3,"title":"content","slug":"content","link":"#content","children":[]},{"level":3,"title":"children","slug":"children","link":"#children","children":[]}]}],"git":{"updatedTime":1685368456000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"gis/ogc/3dtiles.md"}'
+);
+export { e as data };

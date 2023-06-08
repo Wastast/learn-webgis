@@ -1,0 +1,4 @@
+const l = JSON.parse(
+  '{"key":"v-cb29af62","path":"/webgl/","title":"WebGL 介绍","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"WebGL 的起源","slug":"webgl-的起源","link":"#webgl-的起源","children":[]},{"level":2,"title":"WebGL 的支持度","slug":"webgl-的支持度","link":"#webgl-的支持度","children":[]},{"level":2,"title":"OpenGL、WebGL、GLSL 三者的关系","slug":"opengl、webgl、glsl-三者的关系","link":"#opengl、webgl、glsl-三者的关系","children":[{"level":3,"title":"OpenGL","slug":"opengl","link":"#opengl","children":[]},{"level":3,"title":"WebGL","slug":"webgl","link":"#webgl","children":[]},{"level":3,"title":"GLSL","slug":"glsl","link":"#glsl","children":[]}]}],"git":{"updatedTime":1682181778000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"webgl/index.md"}'
+);
+export { l as data };

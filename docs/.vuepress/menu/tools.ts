@@ -40,6 +40,10 @@ export default [
       {
         text: 'dat.gui',
         link: '/tools/other/datgui.md'
+      },
+      {
+        text: 'Prettier',
+        link: '/tools/other/prettier.md'
       }
     ]
   }
