@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-d1b2bbd2","path":"/cesium/basic/model.html","title":"Model","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1681650443000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"cesium/basic/model.md"}');export{e as data};

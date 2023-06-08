@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-fa3aae8c","path":"/css/concept/box.html","title":"CSS 盒模型","lang":"zh-CN","frontmatter":{"lastUpdated":false,"contributors":false},"excerpt":"","headers":[],"git":{"updatedTime":1681650443000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"css/concept/box.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-152bcb16","path":"/qgis/","title":"QGIS","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"如何安装","slug":"如何安装","link":"#如何安装","children":[]}],"git":{"updatedTime":1681650443000,"contributors":[{"name":"Gui Xiang","email":"276935962@qq.com","commits":1}]},"filePathRelative":"qgis/index.md"}');export{e as data};
