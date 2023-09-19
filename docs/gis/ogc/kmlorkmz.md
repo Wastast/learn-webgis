@@ -17,7 +17,7 @@ KML 主要用于地理数据的可视化，详细的用途如下：
 - KML 文件的动态获取及修改
 - 显示三维地物
 
-> XML：全称 eXtensible Markup Language, 可扩展标记语言
+> XML：全称 Extensible Markup Language, 可扩展标记语言
 
 ## KML 代码解析
 
@@ -51,6 +51,8 @@ KMZ 一般应用于单一个 KML 文件携带的地理数据太多，涉及图�
 > Google Earth 和 Google Maps 能够直接读取 KML 和 KMZ 文件
 
 ## js 在线解析 KML 和 KMZ 文件
+
+> 切记使用 new DOMParser().parseFromString 解析时，目标格式是 text/xml 而不是 text/html 虽然结果差不多，但是对于后续解析为 geojson 则有本质的区别
 
 ### KML 文件
 

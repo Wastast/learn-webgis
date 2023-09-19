@@ -24,6 +24,10 @@ export default [
         link: '/gis/ogc/kmlorkmz.md'
       },
       {
+        text: 'GeoJSON',
+        link: '/gis/ogc/geojson.md'
+      },
+      {
         text: '3D Tiles',
         link: '/gis/ogc/3dtiles.md'
       },
