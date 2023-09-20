@@ -8,8 +8,6 @@
 
 <img src="/image/cesium/setup/cesiumgithub.jpg" />
 
-> 此文章对应的版本是 1.95。版本之间除应用功能会有些区别，具体启动方法没有区别，可放心下载别的版本
-
 通过 `yarn` `npm install` `pnpm install` 等相关包管理工具的命令，下载相关模块包
 
 ## 启动源码库查看示例以及文档
@@ -96,7 +94,17 @@ Cesium.Ion.defaultAccessToken = cesiumAccessToken;
 
 并再 `example` 文件夹中启动 `vscode` 的 `Live Server`，这样就可以运行了 html 文件了。
 
-<img src="/image/cesium/setup/liveserve.png" />
+<img src="/image/cesium/setup/liveserve.webp" />
+
+1. `Geocoder`：地理位置查询定位控件，默认使用 bing 地图服务
+2. `HomeButton`：默认的相机位置。`Cesium.Camera.DEFAULT_VIEW_RECTANGLE` 可调整该参数用于重新设置默认相机位置
+3. `SceneModePicker`：3D、2D、哥伦布地图渲染模式的切换按钮
+4. `BaseLayerPicker`：选择地形、影响等图层
+5. `NavigationHelpButton`：显示默认的相机控制提示
+6. `Animation`：控制场景的动画播放速度
+7. `CreditsDisplay`：展示数据的版权树形
+8. `Timeline`：时间滚动条
+9. `FullscreenButton`：全屏切换
 
 我们尝试下修改源码，并打印 `测试成功` 的文字。
 
@@ -105,3 +113,37 @@ Cesium.Ion.defaultAccessToken = cesiumAccessToken;
 可以看到文字是可以被打印出来的，我也尝试过直接 `debugger` 也是可以正常进入的。
 
 至此，就可以开启我们伟大的 Cesium 开发生涯了`(开始折磨)`。
+
+## Cesium.Ion 是什么
+
+在正常使用 `Cesium` 时，在开头我们都需要去设置一个叫 `Cesium.Ion.defaultAccessToken` 的参数，那么这个参数是什么意思？为什么要默认去设置它。
+
+所有的 Web 程序都需要有一个默认的服务器去托管资源，CesiumJS 也不例外，尤其是 Cesium 还是一个集大成者。
+
+而 `Cesium.Ion` 就是扮演这么一个资源服务器的角色，`Cesium` 将其一些世界地形、默认卫星图层等 GIS 资源，存放在该服务器中，需要用到 `Cesium.Ion.defaultAccessToken` 去判断当前使用者能否访问这些地图资源。
+
+### 一定要使用 Cesium.Ion 去发布资源吗
+
+当然不是的，我们可以自定义服务器去存放 GIS 资源，只是需要能够正常访问到而已。
+
+下面这张图很好的诠释了 `Cesium.Ion`、`Cesium Lab` 和 `CesiumJS` 之间的关系。
+
+前两者是数据的提供商，后者是数据的使用者。
+
+我们也可以添加第三方服务器作为数据的提供商，以替代前两者。
+
+<img src="/image/cesium/setup/ion.webp" />
+
+### Cesium.Ion 的授权码如何申请
+
+#### 登录 Cesium.Ion 平台
+
+首先要去 `Cesium.Ion` 的[登录页](https://ion.cesium.com/signin?errorcode=A6RZ)，申请账户以及登录账户。
+
+#### 查看 AccessToken
+
+<img src="/image/cesium/setup/ion_apply.png" />
+
+以上就是我们整个 `Cesium.Ion` token 如何获取的流程。下面则开始了解 `Cesium` 中某些相关的概念
+
+> 记得要科学上网
