@@ -11,13 +11,14 @@ export default [
         link: '/cesium/setup/start.md'
       },
       {
-        text: '几何图形',
-        link: '/cesium/setup/spacedata.md'
-      },
-      {
         text: '影像与地形',
         link: '/cesium/setup/imagelayer.md'
+      },
+      {
+        text: '几何图形',
+        link: '/cesium/setup/spacedata.md'
       }
+
       // {
       //   text: 'Primitive 与 Entity',
       //   link: '/cesium/setup/pore.md'
