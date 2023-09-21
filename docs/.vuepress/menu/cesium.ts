@@ -15,7 +15,7 @@ export default [
         link: '/cesium/setup/spacedata.md'
       },
       {
-        text: '栅格瓦片',
+        text: '影像与地形',
         link: '/cesium/setup/imagelayer.md'
       }
       // {
