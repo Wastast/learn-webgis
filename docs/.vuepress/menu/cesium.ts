@@ -17,8 +17,15 @@ export default [
       {
         text: '几何图形',
         link: '/cesium/setup/spacedata.md'
+      },
+      {
+        text: '相机',
+        link: '/cesium/setup/camera.md'
+      },
+      {
+        text: '粒子系统',
+        link: '/cesium/setup/particle.md'
       }
-
       // {
       //   text: 'Primitive 与 Entity',
       //   link: '/cesium/setup/pore.md'
